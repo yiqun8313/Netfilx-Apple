@@ -1,0 +1,40 @@
+.home {
+  margin: 30px 50px;
+}
+
+.mylist, .relist {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+h2, h3 {
+  display:block;
+}
+
+.listitem {
+  margin-left: 20px; 
+}
+
+.listitem div button {
+  visibility:hidden;
+}
+.listitem:hover div button {
+  visibility:visible;
+}
+
+.button {
+  text-align:center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  border-radius: 20% 20%;
+}
+
+.title {
+  text-align:center;
+}
+
+
